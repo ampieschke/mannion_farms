@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 import LoginButton from "./components/LoginButton";
-import LogoutButton from "./components/LogoutButton";
 import Profile from "./components/Profile";
 import Header from "./components/Header";
 import { useAuth0 } from "@auth0/auth0-react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Container } from "react-bootstrap";
+import Articles from "./components/Articles";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -18,8 +18,8 @@ function App() {
       <Header />
       <Container>
         <LoginButton />
-        <LogoutButton />
         <Profile />
+        <Articles />
       </Container>
     </>
   );
