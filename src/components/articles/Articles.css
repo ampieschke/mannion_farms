@@ -1,0 +1,30 @@
+.bigContent{
+    cursor: pointer;
+    /* border: none; */
+    padding: 5px !important;
+    /* border-left: none;
+    border-right: none;
+    border-top: none; */
+}
+
+.post{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    /* border-bottom: 2px lightgrey solid; */
+}
+
+.readArticle{
+    background-color: darkGreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.mainTitle{
+    font-size: 24px;
+    font-weight: 700;
+    cursor: pointer
+}

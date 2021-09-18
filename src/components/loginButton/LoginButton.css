@@ -1,0 +1,22 @@
+.logInLogo{
+    max-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.logInButton{
+    background-color: #141840;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

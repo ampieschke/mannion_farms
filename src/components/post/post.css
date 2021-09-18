@@ -1,0 +1,38 @@
+
+hr{
+    margin: 0;
+    padding: 0;
+
+}
+
+.postCat{
+    font-size: 11px;
+
+}
+
+.postTitle{
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.postDate{
+    font-style: italic;
+    font-size: 13px;
+}
+
+.postDescription{
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.readArticle{
+    background-color: darkGreen;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
