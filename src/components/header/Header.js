@@ -10,7 +10,7 @@ class Header extends Component {
       <>
         <Container>
           <Navbar
-            className="ope"
+            className="ope justify-content-center"
             fixed="top"
             expand="lg"
             variant="dark"

@@ -18,10 +18,9 @@ import Standings from "./components/standings/Standings";
 
 function App() {
   const { isLoading } = useAuth0();
-  const { user } = useAuth0();
+  // const { user } = useAuth0();
 
   if (isLoading) return <div>Loading ... </div>;
-  console.log(user.name);
 
   return (
     <>
