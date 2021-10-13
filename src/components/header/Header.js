@@ -23,9 +23,9 @@ class Header extends Component {
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav>
-                  <Nav.Link href="./">Home</Nav.Link>
+                  {/* <Nav.Link href="./">Home</Nav.Link>
                   <Nav.Link href="./HallofRecords">Records</Nav.Link>
-                  <Nav.Link href="./standings">Standings</Nav.Link>
+                  <Nav.Link href="./standings">Standings</Nav.Link> */}
                   <Nav.Link>
                     <LogoutButton />
                   </Nav.Link>

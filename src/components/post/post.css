@@ -1,4 +1,18 @@
 
+
+.post{
+    padding: 20px;
+    border-left: grey 4px solid;
+
+}
+
+.postPic{
+padding-top: 12px;
+}
+
+.modalPic{
+    padding: 5px;
+}
 hr{
     margin: 0;
     padding: 0;

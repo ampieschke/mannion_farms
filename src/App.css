@@ -9,6 +9,8 @@ cursor: pointer;
 
 body{
   padding-top: 100px;
+  padding-bottom: 150px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .bigContent{

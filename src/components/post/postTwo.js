@@ -19,7 +19,7 @@ export default function PostTwo() {
         <span className="postDate">9.17.21</span>
       </div>
       <p className="postDescription">
-        Tired of losing every gosh darn week? Sick of wathcing your childrens'
+        Tired of losing every gosh darn week? Sick of watching your childrens'
         respect for you ebb away with each Sit/Start miss? Fret no more!
         Scientists from MIT have discovered an algorithm to ensure you never
         lose again!
@@ -38,7 +38,7 @@ export default function PostTwo() {
             <span className="postCat"> Drew - 9.17.21</span>
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body>
+        <Modal.Body id="video">
           <h3>Thank you for reading!</h3>
           <br />
           <br />
@@ -48,10 +48,18 @@ export default function PostTwo() {
           <br />
           <br />
           <Row>
-            <button variant="primary" target="blank">
+            <a
+              href="https://www.youtube.com/embed/tfdMsxSjY3o?start=95"
+              target="blank"
+            >
               Sign Up
-            </button>
-            <button href="#">Log In</button>
+            </a>
+            <a
+              href="https://www.youtube.com/embed/tfdMsxSjY3o?start=95"
+              target="blank"
+            >
+              Log In
+            </a>
           </Row>
         </Modal.Body>
       </Modal>
