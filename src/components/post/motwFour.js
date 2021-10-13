@@ -39,7 +39,7 @@ export default function MotwFour() {
       >
         <Modal.Header closeButton>
           <Modal.Title id="motwFour">
-            Matchup of the Week: Week 4
+            Matchup of the Week: Week 4<br />
             <span className="postCat"> Adam - 9.30.21</span>
           </Modal.Title>
         </Modal.Header>

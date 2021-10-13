@@ -71,8 +71,8 @@ const Articles = () => {
         >
           <Modal.Header closeButton>
             <Modal.Title id="mainArticle">
-              The 2021 Andys Bowl{" "}
-              <span className="postCat">Drew - 10.13.21</span>
+              The 2021 Andys Bowl
+              <br /> <span className="postCat">Drew - 10.13.21</span>
             </Modal.Title>
           </Modal.Header>
           <Modal.Body>

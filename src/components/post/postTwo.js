@@ -35,6 +35,7 @@ export default function PostTwo() {
         <Modal.Header closeButton>
           <Modal.Title id="secondArticle">
             Algorithm to Win Your Week
+            <br />
             <span className="postCat"> Drew - 9.17.21</span>
           </Modal.Title>
         </Modal.Header>

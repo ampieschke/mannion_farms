@@ -44,6 +44,7 @@ export default function PostFour() {
         <Modal.Header closeButton>
           <Modal.Title id="fourthArticle">
             Week 1 Recap
+            <br />
             <span className="postCat"> Alex - 9.14.21</span>
           </Modal.Title>
         </Modal.Header>

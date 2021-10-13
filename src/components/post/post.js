@@ -36,6 +36,7 @@ export default function Post() {
         <Modal.Header closeButton>
           <Modal.Title id="secondArticle">
             Content Needed!
+            <br />
             <span className="postCat"> Drew - 9.17.21</span>
           </Modal.Title>
         </Modal.Header>
