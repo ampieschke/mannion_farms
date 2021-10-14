@@ -7,7 +7,7 @@ export default function PostFour() {
 
   return (
     <div className="post">
-      <Row>
+      <Row onClick={() => setWeekOneRecapShow(true)}>
         <Col xs="5">
           <img
             className="postPic img-fluid "

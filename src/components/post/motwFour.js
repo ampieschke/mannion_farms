@@ -7,7 +7,7 @@ export default function MotwFour() {
 
   return (
     <div className="post">
-      <Row>
+      <Row onClick={() => setMotwFourShow(true)}>
         <Col xs="5">
           <img
             className="postPic img-fluid "

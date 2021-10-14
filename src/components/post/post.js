@@ -8,7 +8,7 @@ export default function Post() {
 
   return (
     <div className="post">
-      <div className="postInfo">
+      <div className="postInfo" onClick={() => setArtTwoShow(true)}>
         <span className="postTitle" onClick={() => setArtTwoShow(true)}>
           Content Needed!
         </span>
@@ -17,14 +17,15 @@ export default function Post() {
         </div>
         <hr />
         <span className="postDate">9.17.21</span>
+
+        <p className="postDescription">
+          I made this site to store our content, it's still a bit crude but it's
+          going to evolve over time. It sure would be swell to have some stuff
+          here to make it useful! Shame we no longer have an award winning
+          journalist in the league... Someone consider picking up The Power
+          Rankings? Those are fun!
+        </p>
       </div>
-      <p className="postDescription">
-        I made this site to store our content, it's still a bit crude but it's
-        going to evolve over time. It sure would be swell to have some stuff
-        here to make it useful! Shame we no longer have an award winning
-        journalist in the league... Someone consider picking up The Power
-        Rankings? Those are fun!
-      </p>
 
       {/* //////////////  Second MODAL   //////////////*/}
       <Modal

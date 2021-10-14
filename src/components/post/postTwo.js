@@ -8,7 +8,7 @@ export default function PostTwo() {
 
   return (
     <div className="post">
-      <div className="postInfo">
+      <div className="postInfo" onClick={() => setArtThreeShow(true)}>
         <span className="postTitle" onClick={() => setArtThreeShow(true)}>
           Algorithm to Win Your Week
         </span>
@@ -17,13 +17,14 @@ export default function PostTwo() {
         </div>
         <hr />
         <span className="postDate">9.17.21</span>
+
+        <p className="postDescription">
+          Tired of losing every gosh darn week? Sick of watching your childrens'
+          respect for you ebb away with each Sit/Start miss? Fret no more!
+          Scientists from MIT have discovered an algorithm to ensure you never
+          lose again!
+        </p>
       </div>
-      <p className="postDescription">
-        Tired of losing every gosh darn week? Sick of watching your childrens'
-        respect for you ebb away with each Sit/Start miss? Fret no more!
-        Scientists from MIT have discovered an algorithm to ensure you never
-        lose again!
-      </p>
 
       {/* //////////////  Second MODAL   //////////////*/}
       <Modal
