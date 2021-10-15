@@ -11,12 +11,15 @@ const NavFoot = () => {
         <Row>
           <Col xs="4" className="footicon">
             <a href="/">
-              <i class="fas fa-book-open fa-2x" style={{ color: "white" }}></i>
+              <i
+                className="fas fa-book-open fa-2x"
+                style={{ color: "white" }}
+              ></i>
             </a>
           </Col>
           <Col xs="4" className="footicon">
             <a href="/HallofRecords">
-              <i class="fas fa-trophy fa-2x" style={{ color: "white" }}></i>
+              <i className="fas fa-trophy fa-2x" style={{ color: "white" }}></i>
             </a>
           </Col>
           <Col xs="4" className="footicon">

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./Header.css";
-import { Container, Nav, Navbar } from "react-bootstrap";
-import LogoutButton from "../LogoutButton";
+import { Container, Navbar } from "react-bootstrap";
+// import LogoutButton from "../LogoutButton";
 
 class Header extends Component {
   render() {
