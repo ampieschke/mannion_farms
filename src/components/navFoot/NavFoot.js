@@ -18,7 +18,7 @@ const NavFoot = () => {
             </a>
           </Col>
           <Col xs="4" className="footicon">
-            <a href="/HallofRecords">
+            <a href="/hallofrecords">
               <i className="fas fa-trophy fa-2x" style={{ color: "white" }}></i>
             </a>
           </Col>

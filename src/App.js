@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import LoginButton from "./components/loginButton/LoginButton";
-import { BrowserRouter as Router, Switch } from "react-router-dom";
+import { BrowserRouter, Switch } from "react-router-dom";
 // import Profile from "./components/Profile";
 import Header from "./components/header/Header";
 import { useAuth0 } from "@auth0/auth0-react";
@@ -20,18 +20,18 @@ function App() {
   if (isLoading) return <div>Loading ... </div>;
 
   return (
-    <div className="app">
+    <div className="App">
       <Header />
       <Container>
         <LoginButton />
       </Container>
-      <Router>
+      <BrowserRouter>
         <Switch>
           <PrivateRoute exact path="/" component={Articles} />
-          <PrivateRoute exact path="/HallofRecords" component={HallofRecords} />
+          <PrivateRoute exact path="/hallofrecords" component={HallofRecords} />
           <PrivateRoute exact path="/standings" component={Standings} />
         </Switch>
-      </Router>
+      </BrowserRouter>
       <NavFoot />
     </div>
   );
