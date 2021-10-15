@@ -20,18 +20,18 @@ class Header extends Component {
               <Navbar.Brand className="m-auto">
                 Mannion Farms League
               </Navbar.Brand>
-              <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-              <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav>
-                  {/* <Nav.Link href="./">Home</Nav.Link>
+              {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
+              {/* <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav> */}
+              {/* <Nav.Link href="./">Home</Nav.Link>
                   <Nav.Link href="./HallofRecords">Records</Nav.Link>
                   <Nav.Link href="./standings">Standings</Nav.Link> */}
-                  <Nav.Link>
+              {/* <Nav.Link>
                     <LogoutButton />
                   </Nav.Link>
                 </Nav>
-              </Navbar.Collapse>
-              <Navbar className="justify-content-end"></Navbar>
+              </Navbar.Collapse> */}
+              {/* <Navbar className="justify-content-end"></Navbar> */}
             </Container>
           </Navbar>
         </Container>

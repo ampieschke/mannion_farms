@@ -10,12 +10,7 @@ import { Container } from "react-bootstrap";
 import Articles from "./components/articles/Articles";
 import HallofRecords from "./components/hallOfRecords/HallofRecords";
 import Standings from "./components/standings/Standings";
-import Footer from "./components/footer/Footer";
-// import Single from "./pages/single/single";
-// import Write from "./pages/write/write";
-// import Settings from "./pages/settings/Settings";
-// import Login from "./pages/login/Login";
-// import Register from "./pages/register/Register";
+import NavFoot from "./components/navFoot/NavFoot";
 
 function App() {
   const { isLoading } = useAuth0();
@@ -36,7 +31,7 @@ function App() {
           <Route exact path="/standings" component={Standings} />
         </Switch>
       </Router>
-      <Footer />
+      <NavFoot />
     </>
   );
 }

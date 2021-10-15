@@ -7,7 +7,7 @@ const LogoutButton = () => {
   return (
     isAuthenticated && (
       <span className="loButton" onClick={() => logout()}>
-        Log Out
+        <i class="fas fa-door-open fa-2x"></i>
       </span>
     )
   );

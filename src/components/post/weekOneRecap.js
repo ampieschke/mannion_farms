@@ -4,6 +4,7 @@ import { Modal, Row, Col } from "react-bootstrap";
 
 export default function PostFour() {
   const [weekOneRecapShow, setWeekOneRecapShow] = useState(false);
+  // const [count, setCount] = useState(0);
 
   return (
     <div className="post">
@@ -33,6 +34,7 @@ export default function PostFour() {
             Trying to find some time here while I prepare for tonight's baseball
             game, so here we go!
           </p>
+          {/* <p>You clicked {count} times</p> */}
         </Col>
       </Row>
       <Modal
@@ -131,6 +133,10 @@ export default function PostFour() {
           <b>Final: HP (1-0) 144.35 - 129.55 CG (0-1)</b>
           <br />
           <br />
+          {/* <div>
+            <p>You clicked {count} times</p>
+            <button onClick={() => setCount(count + 1)}>Click me</button>
+          </div> */}
         </Modal.Body>
       </Modal>
     </div>
